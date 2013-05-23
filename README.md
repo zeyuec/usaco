@@ -2,4 +2,48 @@
 
 These are my solutions of [USACO](http://train.usaco.org) problems, written in c.
 
-@zeyuec
+Author: zeyuec
+
+## Section 1
+
+##### Section 1.1 
+* 1-1-1 Your ride is Here [2013-05-08]: Implementation
+* 1-1-2 Greedy Gift Giver [2013-05-08]: Implementation
+* 1-1-3 Friday Thirteenth [2013-05-11]: Implementation
+* 1-1-4 Broken Necklace [2013-05-11]: Triple the necklace and search all positions
+
+##### Section 1.2
+* 1-2-1 Milking Cows [2013-05-11]: Sort the list of time and go over it.
+* 1-2-2 Transformations [2013-05-11]: Implementation
+* 1-2-3 Name That Number [2013-05-11]: Hash all words in the file and search
+* 1-2-4 Palindromic Squares [2013-05-11]: Implementation
+* 1-2-5 Dual Palindromes [2013-05-11]: Implementation
+
+##### Section 1.3
+* 1-3-1 Mixing Milk [2013-05-11]: Greedy, sort milks by price
+* 1-3-2 Barn Repair [2013-05-11]: Greedy, sort the spaces between barns, top M spaces donot need to be repaired
+* 1-3-3 Calf Flac [2013-05-12]: Implementation
+* 1-3-4 Prime Cryptarithm [2013-05-12]: Search with brute force
+
+##### Section 1.4
+* 1-4-1 Packing Rectangles [2013-05-16]: Implementation with patient
+* 1-4-2 The Clocks [2013-05-16]: Implementation, each move appears three times at most
+* 1-4-3 Arithmetic Progressions [2013-05-13]: Generate all nums of p^2+q^2 and search
+* 1-4-4 Mother's Milk [2013-05-13]: DFS
+
+##### Section 1.5
+* 1-5-1 Number Triangles [2013-05-16]: Easy DP
+* 1-5-2 Prime Palindromes [2013-05-16]: Palindrome num can be generateed
+* 1-5-3 SuperPrime Rib [2013-05-16]: BFS
+* 1-5-4 Checker Challenge [2013-05-20]: Use binary number to indicate one row status. This is the fastest algorithm, it only costs 0.1s when N=13, see more details in my source file
+
+## Section 2
+
+##### Section 2.1
+* 2-1-1 The Castle [2013-05-20]: Easy Floodfill
+* 2-1-2 Ordered Fractions [2013-05-20]: Implementation
+* 2-1-3 Sorting A Three-Valued Sequence [2013-05-21]: Count 1, 2, 3
+* 2-1-4 Healthy Holsteins [2013-05-22]: For each feed, choose or not,  only 2^15 possibilities, just search
+* 2-1-5 Hamming Codes [2013-05-22]: Search 2^B-1 numbers, maintain an answer queue. First one is 0, then check if the candidate number has at least D distance from each numbers in the queue, if it is, add it in.
+
+
