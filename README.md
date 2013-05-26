@@ -50,5 +50,6 @@ Author: zeyuec
 * 2-2-1 Preface Numbering [2013-05-24]: Count each character recursion
 * 2-2-2 Subset Sums [2013-05-23]: Easy DP, f[i][j] = f[i-1][j-1] + (f[i-1][j-i] if j-i >=0), f[i][j] indicates how many ways can you find to get a sum of j in the first i nums
 * 2-2-3 Runaround Numbers [2013-05-24]: Implementation
+* 2-2-4 Party Lamps
 
 
