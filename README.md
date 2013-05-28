@@ -48,11 +48,11 @@ Author: zeyuec
 
 ##### Section 2.2
 * 2-2-1 Preface Numbering [2013-05-24]: Count each character recursion
-* 2-2-2 Subset Sums [2013-05-23]: Easy DP, f[i][j] = f[i-1][j-1] + (f[i-1][j-i] if j-i >=0), f[i][j] indicates how many ways can you find to get a sum of j in the first i nums
+* 2-2-2 Subset Sums [2013-05-23]: Easy DP, f[i][j] = f[i-1][j] + (f[i-1][j-i] if j-i >=0), f[i][j] indicates how many ways can you find to get a sum of j in the first i nums
 * 2-2-3 Runaround Numbers [2013-05-24]: Implementation
 * 2-2-4 Party Lamps [2013-05-26]: Press a button twice is the same as not pressing it and the order of pressing does not matter, so there are at most 15 possibilities. For any C>4, keep minusing it by 2 until C<=4, then search
 
 ##### Section 2.3
 * 2-3-1 The Longest Prefix [2013-05-27]: DP (hint: 200,000 times of strlen() will cause a lot of time)
 * 2-3-3 Zero Sum [2013-05-26]: Only at most 3^8 possibilities, DFS
-
+* 2-3-4 Money System [2013-05-28]: f[i][j] = f[i-1][j] + (f[i-1][j-coin[i]] if j-coin[i] >= 0), f[i][j] indicates number of ways make j cents with first i type of coins
