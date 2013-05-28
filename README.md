@@ -53,5 +53,6 @@ Author: zeyuec
 * 2-2-4 Party Lamps [2013-05-26]: Press a button twice is the same as not pressing it and the order of pressing does not matter, so there are at most 15 possibilities. For any C>4, keep minusing it by 2 until C<=4, then search
 
 ##### Section 2.3
+* 2-3-1 The Longest Prefix [2013-05-27]: DP (hint: 200,000 times of strlen() will cause a lot of time)
 * 2-3-3 Zero Sum [2013-05-26]: Only at most 3^8 possibilities, DFS
 
