@@ -56,3 +56,5 @@ Author: zeyuec
 * 2-3-1 The Longest Prefix [2013-05-27]: DP (hint: 200,000 times of strlen() will cause a lot of time)
 * 2-3-3 Zero Sum [2013-05-26]: Only at most 3^8 possibilities, DFS
 * 2-3-4 Money System [2013-05-28]: f[i][j] = f[i-1][j] + (f[i-1][j-coin[i]] if j-coin[i] >= 0), f[i][j] indicates number of ways make j cents with first i type of coins
+* 2-3-5 Controlling Companies [2013-05-29]: DFS, pay attention to the range
+
